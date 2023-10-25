@@ -1,0 +1,98 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+Halaman Utama
+{% endblock title %}
+
+{% block style %}
+<style>
+    body {
+        font-family: 'Times New Roman', Times, serif;
+        background-color: rgb(28, 239, 247);
+    }
+    h1 {
+        text-align: center;
+        color: rgb(53, 122, 99);
+    }
+    h2{
+        text-align: center;
+        color: rgb(53, 122, 99);
+    }
+    p {
+        text-indent: 25px;
+        font-size: 20px;
+        color: rgb(53, 122, 99);
+    }
+    header a + a:before {
+        content: " | ";
+        margin: 0 5px;
+    }
+    header a {
+        text-decoration: none;
+    }
+    footer a {
+        text-decoration: none;
+    }
+    .service {
+    background-color: rgb(28, 239, 247);
+    }
+    .container {
+	width:80%;
+	margin:0 auto;
+    }
+    .box {
+	color: rgb(53, 122, 99);
+    }
+    .box:after {
+	content: '';
+	clear: both;
+    }
+    .box .col-4 {
+	width:25%;
+	padding:20px;
+	box-sizing: border-box;
+	text-align: center;
+	float: left;
+    }
+</style>
+{% endblock style %}
+
+{% block menu %}
+{% endblock menu %}
+
+{% block content %}
+<h1>SELAMAT DATANG DI KEBUN BINATANG</h1>
+<h2>CAN DANG PAMEKASAN</h2>
+<p>Can Dang adalah salah satu kebun binatang yang tidak populer di Indonesia dan terletak di Pamekasan. Can Dang merupakan kebun binatang yang paling sedikit se-Asia Tenggara. Di dalamnya terdapat lebih dari 1 spesies satwa yang berbeda yang terdiri lebih dari 1 ekor satwa, bahkan setiap rumah sepertinya memiliki hewan-hewan ini.(Non Fakta)</p>
+<p>
+    Kebun binatang atau taman margasatwa adalah tempat hewan dipelihara dalam lingkungan buatan, dan dipertunjukkan kepada publik. Selain sebagai tempat rekreasi, kebun binatang berfungsi sebagai tempat pendidikan, riset, dan tempat konservasi untuk satwa terancam punah. Binatang yang dipelihara di kebun binatang sebagian besar adalah hewan yang hidup di darat, sedangkan satwa air dipelihara di akuarium.
+</p>
+<p>
+    Kebun binatang yang memungkinkan pengunjung masuk dengan mobil atau bus disebut taman safari. Binatang dilepas di kawasan luas dan terbuka, serta tidak dikurung di kandang-kandang sempit, melainkan dibatasi dengan pagar atau parit. Kebun binatang sering dilengkapi dengan kebun binatang anak untuk mempertontonkan hewan ternak atau spesies satwa liar yang belum dewasa dan jinak untuk dipegang-pegang atau diberi makan, termasuk oleh anak-anak. Ada pula taman bermain yang bertemakan hewan.
+</p>
+<br><br><br>
+<section class="service">
+    <div class="container">
+        <h2>HUBUNGI KAMI</h2>
+        <div class="box">
+            <div class="col-4">
+                <h4>Alamat</h4>
+                <p>Jl. Jl. Pamekasan</p>
+            </div>
+            <div class="col-4">
+                <h4>Email</h4>
+                <p>candang@gmail.com</p>
+            </div>
+            <div class="col-4">
+                <h4>Telp.</h4>
+                <p>-</p>
+            </div>
+            <div class="col-4">
+                <h4>Hp.</h4>
+                <p>+62</p>
+            </div>
+            <div class="siwil">
+                <img src="" alt="">
+            </div>
+{% endblock content %}
